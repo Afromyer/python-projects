@@ -6,7 +6,7 @@ Welcome to my collection of Python projects! This repository showcases various p
 
 ### 1. Turtle Crossing
 
-A fun game where the player helps a turtle cross the road while avoiding obstacles.
+A game where the player helps a turtle cross the road while avoiding obstacles.
 
 ### 2. Snake Game
 
