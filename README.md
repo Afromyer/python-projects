@@ -61,6 +61,6 @@ A simulation of the classic Blackjack card game.
 To run any of these projects, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/python-projects.git
+git clone https://github.com/JPmire/python-projects.git
 cd python-projects
 ```
