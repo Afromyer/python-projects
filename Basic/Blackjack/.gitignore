@@ -1,0 +1,17 @@
+# Ignore environment variables
+.env
+
+# Ignore PyCharm project files
+.idea
+
+.DS_Store
+
+__pycache__
+
+__MACOSX
+
+.upm
+
+.cache
+
+.replit

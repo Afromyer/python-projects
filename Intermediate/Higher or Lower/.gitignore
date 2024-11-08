@@ -1,0 +1,26 @@
+# Ignore environment variables
+.env
+venv
+
+# Ignore PyCharm project files
+.idea
+
+.DS_Store
+
+__pycache__
+
+__MACOSX
+
+.upm
+
+.cache
+
+.replit
+
+replit.nix
+
+poetry.lock
+
+pyproject.toml
+
+.pythonlibs
