@@ -9,7 +9,7 @@ TWILIO_VIRTUAL_NUMBER = "+19472227091"
 # Enter your verified Twilio number
 TWILIO_VERIFIED_NUMBER = "+27680495232"
 
-APP_PASSWORD = "rwpmavsbnefgxccw"
+APP_PASSWORD = os.getenv("GOOGLE_APP_PASSWORD")
 
 my_email = "jpjoubert2006@gmail.com"
 my_password = APP_PASSWORD
