@@ -2,7 +2,7 @@ from twilio.rest import Client
 import smtplib
 import os
 
-TWILIO_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_SID = os.getenv("")  # TWILIO_ACCOUNT_SID
 TWILIO_AUTH_TOKEN = os.getenv("AUTH_TOKEN")
 TWILIO_VIRTUAL_NUMBER = "+19472227091"
 
