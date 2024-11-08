@@ -5,7 +5,7 @@ import os
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla"
 
-account_sid = 'ACad20a0270d5a75e12ab5ca2a96e935ff'
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("AUTH_TOKEN")
 
 ## STEP 1: Use https://www.alphavantage.co
@@ -29,8 +29,8 @@ Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?.
 Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
 """
 STOCK_DATA = "https://www.alphavantage.co/query?"
-STOCK_DATA_API = "O5KQOD347VE520FV"
-NEWS_DATA_API = "1e456b497d5945068b4d1e50684c503c"
+STOCK_DATA_API = os.getenv("STOCK_DATA_API")
+NEWS_DATA_API = os.getenv("NEWS_DATA_API")
 
 
 def check_stock_price_change():

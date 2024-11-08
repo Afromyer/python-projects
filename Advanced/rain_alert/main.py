@@ -3,7 +3,7 @@ from twilio.rest import Client
 import os
 
 API_KEY = os.getenv("OWM_API_KEY")
-account_sid = "ACad20a0270d5a75e12ab5ca2a96e935ff"
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("AUTH_TOKEN")
 
 parameters = {
