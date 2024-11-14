@@ -18,3 +18,5 @@ __MACOSX
 .replit
 
 replit.nix
+
+.config

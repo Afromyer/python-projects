@@ -1,6 +1,6 @@
 # Ignore environment variables
 .env
-venv
+.venv
 
 # Ignore PyCharm project files
 .idea
@@ -18,11 +18,3 @@ __MACOSX
 .replit
 
 replit.nix
-
-poetry.lock
-
-pyproject.toml
-
-.pythonlibs
-
-.config

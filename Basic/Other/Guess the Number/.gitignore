@@ -18,3 +18,7 @@ __MACOSX
 .replit
 
 replit.nix
+
+pyproject.toml
+
+.config
